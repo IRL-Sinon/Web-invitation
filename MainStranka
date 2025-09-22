@@ -1,19 +1,44 @@
-Hlavní stránka maturitního plesu bude mít nahoře header, ve kterém vlevo bude logo SŠMG a vpravo jednoduché menu s odkazy na sekce. Tento header bude sticky, tedy zůstane viditelný při scrollování.
+Rozumím 👍 Tady je finální verze hlavní stránky, už bez konkrétních jmen, telefonů a e-mailů. Ty si je pak doplníš podle potřeby.
 
-Pod ním přijde main sekce s úvodním hero bannerem. Uprostřed banneru bude hlavní nadpis H1: „Maturitní ples SŠMG – třída 4I“, pod ním menší řádek jako H2: „16. ledna 2026 · Městský společenský dům Kolín“. Pod těmito texty budou dvě tlačítka – jedno hlavní pro nákup vstupenky a druhé pro přechod na program večera.
+---
 
-Další částí mainu bude pruh s animací rulety, která se zastaví na datu a adrese. Pod tím následuje červený digitální odpočet (div s class=“countdown“), a pod ním ještě přesný čas začátku 18:00, doplněný o vloženou mapu.
+Hlavní stránka maturitního plesu bude mít nahoře **header**. Vlevo bude logo **„SŠMG“**, vpravo menu s položkami „Domů“, „Info“, „Třídy“, „Galerie“, „Kontakt“. Tento header bude fixní a zůstane viditelný při scrollování.
 
-Následuje krátký úvodní text s nadpisem H2: „Vítejte na plese 4I“. V odstavci se hosté přivítají a nastíní se atmosféra večera. Pod tím bude sekce programu s nadpisem H2: „Program večera“, kde bude časová osa s jednotlivými body programu, každá položka v samostatném odstavci nebo seznamu.
+Pod ním bude **main sekce** s velkým hero bannerem. Uprostřed bude hlavní nadpis **H1: „Maturitní ples SŠMG – třída 4I“**. Pod ním menší řádek jako **H2: „16. ledna 2026 · Městský společenský dům Kolín“**. Pod tím dvě tlačítka – první s textem **„Koupit vstupenku“** a druhé menší **„Program večera“**, které posune stránku do programu.
 
-Další velká část mainu je sekce vstupenek s nadpisem H2: „Vstupenky“. Pod ním budou tři boxy s cenami (základní, balkon, VIP) a krátkými popisky. Na konci této sekce bude výrazné tlačítko „Koupit vstupenku“.
+Hned pod bannerem se zobrazí krátká animace rulety, která se zastaví a ukáže nápis: **„16. ledna 2026 – MSD Kolín“**. Pod tím bude červený digitální odpočet s textem **„Začínáme za: 12 dní : 05 hodin : 23 minut : 45 sekund“**. Pod odpočtem se napíše řádek: **„Slavnostní zahájení v 18:00“** a vedle toho bude vložená mapa z Google Map.
 
-Pod vstupenkami bude sekce tříd s nadpisem H2: „Třídy a maturanti“, kde se zobrazí karty s fotkami a krátkým textem. Poté následuje sekce s nadpisem H2: „Dress code“, kde budou krátké odstavce o doporučeném oblečení a ikonky šatů a obleku.
+Další částí mainu bude úvodní text. Nadpis **H2: „Vítejte na plese 4I“** a pod ním odstavec:
+**„Zveme vás na slavnostní večer plný emocí, tradic a zábavy. Čekají vás nástupy, přípitky, půlnoční překvapení i bohatá tombola. Přijďte s námi oslavit tento výjimečný den.“**
 
-Aby stránka působila uvolněně, další částí bude galerie s nadpisem H2: „Fotky z příprav“, kde se zobrazí fotografie v mřížce nebo carouselu.
+Následuje program. Nadpis **H2: „Program večera“** a pod ním časová osa s jednotlivými body:
 
-Před závěrem stránky bude výrazný pruh s výzvou k akci a tlačítkem. Nadpis zde může být H2: „Chceš být u toho?“ a pod ním krátký odstavec „Zajisti si místo včas“ plus tlačítko pro nákup vstupenky.
+* **18:00 – Zahájení plesu**
+* **18:30 – Slavnostní nástupy tříd**
+* **19:15 – Přípitky a projevy**
+* **20:30 – Losování tomboly (1. kolo)**
+* **22:00 – Půlnoční překvapení**
+* **22:30 – Tanec a volná zábava**
+* **00:30 – Finální losování tomboly**
 
-Na konci stránky bude footer rozdělený na tři sloupce. První sloupec ponese kontakty na organizátora (jméno, e-mail, telefon). Druhý bude mít nadpis H3: „Místo a čas“, kde se uvede „Městský společenský dům Kolín, 16. ledna 2026, začátek 18:00“. Třetí sloupec bude mít nadpis H3: „Partneři a sponzoři“ a loga partnerů. Úplně dole v patičce bude malý řádek s copyrightem.
+Další velká část mainu je sekce vstupenek. Nadpis **H2: „Vstupenky“** a pod ním tři boxy:
 
-Celkově by tedy stránka měla mít jednu hlavní strukturu: header, main (s H1 a jednotlivými H2 pro sekce) a footer. H1 bude použité jen jednou v hero banneru, ostatní hlavní sekce budou mít H2, v patičce se použijí H3.
+* **Základní vstupenka – 250 Kč** – vstup a místo v sále
+* **Balkon – 300 Kč** – výhled z balkonu
+* **VIP – 500 Kč** – rezervované sezení a malý dárek
+  Pod tím krátká věta: **„Vstupenky je možné zakoupit u organizátorů plesu.“** Celou sekci zakončí výrazné tlačítko **„Koupit vstupenku“**.
+
+Pod vstupenkami bude sekce tříd. Nadpis **H2: „Třídy a maturanti“** a pod ním karty s fotkami a krátkými popisky. U 4I například text: **„Třída 4I – IT specialisté a pořadatelé letošního plesu.“** U ostatních tříd jednoduchý seznam jmen nebo krátká charakteristika.
+
+Poté přijde sekce dress code. Nadpis **H2: „Dress code“** a pod ním text:
+**„Dámy: společenské šaty. Pánové: oblek, košile a společenské boty. Prosíme, vyhněte se sportovní obuvi, abychom společně udrželi slavnostní ráz večera.“**
+
+Aby stránka působila i uvolněně, následuje galerie. Nadpis **H2: „Fotky z příprav“** a pod ním fotografie z příprav a školních akcí, které ukážou maturanty i z vtipnější stránky.
+
+Před závěrem stránky bude ještě CTA pruh s nadpisem **H2: „Chceš být u toho?“** a krátkým textem: **„Kapacita sálu je omezená, zajisti si své místo včas.“** Pod ním velké tlačítko **„Koupit vstupenku“**.
+
+Na konci stránky bude **footer**, rozdělený do tří částí. V první části kontakty na organizátory (jména, telefony a e-maily si doplníš sám). Druhá část ponese nadpis **H3: „Místo a čas“** a text: **„Městský společenský dům Kolín, 16. ledna 2026, začátek 18:00“**. Třetí část bude mít nadpis **H3: „Partneři a sponzoři“** a loga firem, které ples podpořily. Úplně dole se pak objeví malý řádek: **„© 2026 Maturitní ples SŠMG 4I“**.
+
+
+
+
