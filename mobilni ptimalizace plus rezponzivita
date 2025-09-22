@@ -1,0 +1,185 @@
+
+/* Responsivní design */
+
+/* Tablet */
+@media (max-width: 768px) {
+    :root {
+        --header-height: 55px;
+        --footer-height: 45px;
+        --container-padding: 0.75rem;
+    }
+
+    .hdr {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .casino h1 {
+        font-size: 1.25rem;
+    }
+
+    .other {
+        gap: 0.5rem;
+    }
+
+    .other h2 {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    :root {
+        --header-height: 50px;
+        --footer-height: 40px;
+        --container-padding: 0.5rem;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .hdr {
+        grid-template-columns: 1fr;
+        grid-template-areas: "casino";
+        text-align: center;
+    }
+
+    .casino h1 {
+        font-size: 1.1rem;
+    }
+
+    .other {
+        display: none;
+    }
+
+    .loader {
+        width: 60px;
+        height: 60px;
+        border-width: 6px;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
+
+    footer {
+        font-size: 0.75rem;
+        padding: 0 0.5rem;
+    }
+}
+
+/* Extra malé mobily */
+@media (max-width: 320px) {
+    :root {
+        --header-height: 45px;
+        --footer-height: 35px;
+    }
+
+    body {
+        font-size: 13px;
+    }
+
+    .casino h1 {
+        font-size: 1rem;
+    }
+
+    .loader {
+        width: 50px;
+        height: 50px;
+        border-width: 5px;
+    }
+
+    button,
+    .btn,
+    [role="button"] {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+        min-height: 40px;
+    }
+}
+
+/* Landscape módy */
+@media (max-width: 768px) and (orientation: landscape) {
+    :root {
+        --header-height: 45px;
+        --footer-height: 35px;
+    }
+    
+    main {
+        padding: 0.5rem;
+    }
+}
+
+/* Touch zařízení */
+@media (hover: none) and (pointer: coarse) {
+    button,
+    .btn,
+    [role="button"],
+    a,
+    .other h2 {
+        min-height: 48px;
+        min-width: 48px;
+    }
+    
+    .other h2 {
+        padding: 0.75rem 1rem;
+    }
+}
+
+/* Dark mode preference */
+@media (prefers-color-scheme: dark) {
+    /* Už máme dark theme, ale můžeme přidat další optimalizace */
+    html {
+        color-scheme: dark;
+    }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    .loader {
+        animation: none;
+        border-top-color: var(--primary);
+    }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+    :root {
+        --border: #ffffff;
+        --text: #ffffff;
+        --bg: #000000;
+        --bg-alt: #111111;
+    }
+}
+
+/* Print styles */
+@media print {
+    #preloader,
+    header,
+    footer {
+        display: none;
+    }
+    
+    body {
+        grid-template-rows: 1fr;
+        grid-template-areas: "main";
+        background: white;
+        color: black;
+    }
+    
+    main {
+        background: white;
+        color: black;
+        padding: 0;
+    }
+}
