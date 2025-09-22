@@ -1,0 +1,19 @@
+Hlavní stránka maturitního plesu bude mít nahoře header, ve kterém vlevo bude logo SŠMG a vpravo jednoduché menu s odkazy na sekce. Tento header bude sticky, tedy zůstane viditelný při scrollování.
+
+Pod ním přijde main sekce s úvodním hero bannerem. Uprostřed banneru bude hlavní nadpis H1: „Maturitní ples SŠMG – třída 4I“, pod ním menší řádek jako H2: „16. ledna 2026 · Městský společenský dům Kolín“. Pod těmito texty budou dvě tlačítka – jedno hlavní pro nákup vstupenky a druhé pro přechod na program večera.
+
+Další částí mainu bude pruh s animací rulety, která se zastaví na datu a adrese. Pod tím následuje červený digitální odpočet (div s class=“countdown“), a pod ním ještě přesný čas začátku 18:00, doplněný o vloženou mapu.
+
+Následuje krátký úvodní text s nadpisem H2: „Vítejte na plese 4I“. V odstavci se hosté přivítají a nastíní se atmosféra večera. Pod tím bude sekce programu s nadpisem H2: „Program večera“, kde bude časová osa s jednotlivými body programu, každá položka v samostatném odstavci nebo seznamu.
+
+Další velká část mainu je sekce vstupenek s nadpisem H2: „Vstupenky“. Pod ním budou tři boxy s cenami (základní, balkon, VIP) a krátkými popisky. Na konci této sekce bude výrazné tlačítko „Koupit vstupenku“.
+
+Pod vstupenkami bude sekce tříd s nadpisem H2: „Třídy a maturanti“, kde se zobrazí karty s fotkami a krátkým textem. Poté následuje sekce s nadpisem H2: „Dress code“, kde budou krátké odstavce o doporučeném oblečení a ikonky šatů a obleku.
+
+Aby stránka působila uvolněně, další částí bude galerie s nadpisem H2: „Fotky z příprav“, kde se zobrazí fotografie v mřížce nebo carouselu.
+
+Před závěrem stránky bude výrazný pruh s výzvou k akci a tlačítkem. Nadpis zde může být H2: „Chceš být u toho?“ a pod ním krátký odstavec „Zajisti si místo včas“ plus tlačítko pro nákup vstupenky.
+
+Na konci stránky bude footer rozdělený na tři sloupce. První sloupec ponese kontakty na organizátora (jméno, e-mail, telefon). Druhý bude mít nadpis H3: „Místo a čas“, kde se uvede „Městský společenský dům Kolín, 16. ledna 2026, začátek 18:00“. Třetí sloupec bude mít nadpis H3: „Partneři a sponzoři“ a loga partnerů. Úplně dole v patičce bude malý řádek s copyrightem.
+
+Celkově by tedy stránka měla mít jednu hlavní strukturu: header, main (s H1 a jednotlivými H2 pro sekce) a footer. H1 bude použité jen jednou v hero banneru, ostatní hlavní sekce budou mít H2, v patičce se použijí H3.
