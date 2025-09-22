@@ -2,18 +2,21 @@ Semtonpaisu
 
 Vytvořeno podle návrhu 
 Nadpis: Maturitní ples 4I
-Podnadpis: Českýho Brodu
+Podnadpis: Českého Brodu
 Kapitola 1: Cena vstupenek 
 Kapitola 2: Fotografie/Aftermovie
 Kapitola 3: Doporučení dress code
 Kapitola 4: Organizátoří + sponzoři
 Konec stránky - footer: Kontakt na někoho z účastníku + místo + čas konání 
 
+Main:
+
+
 
 Web bude slavnostní, moderní a přehledný,
 Header, logo sšmg, 
-Banner na téma maturitní ples, asi s fotkou s tím spojenou, zřetelný datum 16.1 + místo Městský společenský dům kolín
-pod banerem by mohlo být tlačítko "koupit vstupenku"
+Banner bude animace rulety, kde se nakonci zobrazí datum a adresa místa akce
+pod banerem by mohlo být tlačítko "koupit vstupenku", který scrollne nakonec stránky kde je možnost koupi vstupenek
 Pod banerem bych dal červený odpočet v hodinách, minutách a sekundách, ať to způsobuje částečný FOMO
 Pod to přesný datum zahájení 18:00 + fotka z google map
 
@@ -21,5 +24,41 @@ pod to Článek se stručným programem večera(nástupy, přípytky, bungee jum
 
 Zvážil bych krátký článek ohledně dress code
 
+Fotky z příprav, nějaký vtipný fotky z výletů.
 
-Kapitola o organizátorech a sponzorech, měla by obsahovat všechny sponzory + 
+
+Poslední nad footerem tlačítko pro koupení vstupenek
+
+
+Footer by měl obsahovat věci organizátorech a sponzorech, měl by obsahovat loga všech sponzorů, pokud teda nějací budou + kontakt na nějakýho organizátora
+
+
+
+InfoPage: 
+
+InfoPage obsahuje veškeré podrobnosti ohledně akce
+
+Header logo ssmg.
+
+Sekce vstupenky a program, kde bude časový rozvrh kdy co bude. Ve stejný sekci bude blok s cenami vstupenek
+možností rezervace vstupenek a koupi vstupenek
+
+
+Druhá sekce fotografie z příprav, vtipný fotky z výletů a tak.
+
+
+
+
+Třetí sekce:
+Dress code, organizátoři, 
+kontakt na organizátory, postačí email, 
+sponzoři 
+
+
+
+
+
+
+
+
+
